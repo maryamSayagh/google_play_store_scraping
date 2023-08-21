@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Nov  2 00:25:55 2022
 
-@author: Lenovo
-"""
 
-C:/Users/Lenovo/lnks/lnks/spiders/links/links/links_batch_1.csv
 from google_play_scraper import app ,Sort,reviews_all
 import pandas as pd 
 from urllib.parse import urlparse
