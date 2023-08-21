@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 17 20:24:55 2022
 
-@author: Lenovo
-"""
 #import pymongo
 from pymongo import MongoClient
 import concurrent.futures
@@ -20,7 +16,7 @@ def reviews_ID(review,ID): #reviews is a list of dictionnaries
         dictio['ID']=ID
     return review 
     
-client=MongoClient("mongodb://mrymsygh:saymarsaymar@ac-6ym3kr5-shard-00-00.exdetja.mongodb.net:27017,ac-6ym3kr5-shard-00-01.exdetja.mongodb.net:27017,ac-6ym3kr5-shard-00-02.exdetja.mongodb.net:27017/?ssl=true&replicaSet=atlas-5rew4d-shard-0&authSource=admin&retryWrites=true&w=majority",authSource="admin")        
+client=MongoClient("",authSource="admin")        
 db=client['scrape_db']
 applications=db['apps']
 reviews=db['reviews']
