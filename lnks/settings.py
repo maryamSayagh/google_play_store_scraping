@@ -122,7 +122,7 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-SCRAPEOPS_API_KEY = 'a79fb5e4-7799-4b19-a7c4-41e21e8e4b00'
+SCRAPEOPS_API_KEY = ''
 EXTENSIONS = {
     'scrapeops_scrapy.extension.ScrapeOpsMonitor': 500, 
 }
